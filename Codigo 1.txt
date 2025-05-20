@@ -1,0 +1,22 @@
+# Para adicionarmos comentários, utilizamos #.
+show databases; #exibindo os bancos dados disponíveis
+create database Teste;  #criando um banco de dados chamado teste
+create database Teste2;
+drop database Teste2; #excluindo o banco de dados Teste2
+use Teste; #selecionando o banco de dados Teste
+create table Cliente( #criamos a tabela e podemos identar ou não o código
+	cod int,
+    nome varchar(30),
+    idade int
+);
+select*from Cliente; #O comando select exibe a tabela
+insert into Cliente (cod,nome,idade) #Inserindo informações na tabela
+values
+(1,'Danilo Marinho',50);
+insert into Cliente (cod,nome,idade) #Inserindo vários registros na tabela
+values
+(2,'Diego Oliveira',70),
+(3,'Jackson Santos',80), (4,'Ana Maria', 100);
+
+delete from Cliente #Deletando um registro da Tabela, caso ocorra erro iremos desabilitar o modo protegido.
+where cod = 1;
