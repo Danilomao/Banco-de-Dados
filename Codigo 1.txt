@@ -1,4 +1,4 @@
-# Para adicionarmos comentários, utilizamos #.
+# Para adicionarmos comentários, utilizamos #. testando
 show databases; #exibindo os bancos dados disponíveis
 create database Teste;  #criando um banco de dados chamado teste
 create database Teste2;
